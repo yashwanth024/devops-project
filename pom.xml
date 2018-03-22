@@ -4,33 +4,33 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.vitormp</groupId>
-	<artifactId>git-release-example</artifactId>
-	<version>0.1.20-SNAPSHOT</version>
+	<artifactId>maven-release</artifactId>
+	<version>0.1.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
-	<name>git-release-example Maven Webapp</name>
+	<name>maven-release Maven Webapp</name>
 
 	<scm>
-		<url>https://github.com/addy2908/git-release-example1.git</url>
-		<connection>scm:git:https://github.com/addy2908/git-release-example1.git</connection>
-		<developerConnection>scm:git:https://github.com/addy2908/git-release-example1.git</developerConnection>
+		<url>https://github.com/addy2908/devops-project.git</url>
+		<connection>scm:git:https://github.com/addy2908/devops-project.git</connection>
+		<developerConnection>scm:git:https://github.com/addy2908/devops-project.git</developerConnection>
 		
-	  <tag>git-release-example-0.1.14</tag>
+	  <tag>maven-release-0.1.1</tag>
   </scm>
 
 	<distributionManagement>
 		<!-- Publish versioned releases here -->
 		<repository>
 			<id>nexusreleases</id>
-			<name>localsrelease</name>
-			<url>http://localhost:8081/repository/localrelease/</url>
+			<name>new-maven-release</name>
+			<url>http://localhost:8081/repository/new-maven-release/</url>
 		</repository>
 
 		<!-- Publish snapshots here -->
 		<snapshotRepository>
 			<id>nexussnapshots</id>
-			<name>localsnapshot</name>
-			<url>http://localhost:8081/repository/localsnapshot/</url>
+			<name>new-maven-snapshot</name>
+			<url>http://localhost:8081/repository/new-maven-snapshot/</url>
 		</snapshotRepository>
 	</distributionManagement>
 
@@ -44,7 +44,7 @@
 </dependencies>
 
 	<build>
-		<finalName>git-release-example</finalName>
+		<finalName>maven-release</finalName>
 
 
 

@@ -23,14 +23,14 @@
 		<repository>
 			<id>nexusreleases</id>
 			<name>new-maven-release</name>
-			<url>http://localhost:8081/repository/new-maven-release/</url>
+			<url>http://ec2-54-67-10-18.us-west-1.compute.amazonaws.com:8081/repository/devops-project-release/</url>
 		</repository>
 
 		<!-- Publish snapshots here -->
 		<snapshotRepository>
 			<id>nexussnapshots</id>
 			<name>new-maven-snapshot</name>
-			<url>http://localhost:8081/repository/new-maven-snapshot/</url>
+			<url>http://ec2-54-67-10-18.us-west-1.compute.amazonaws.com:8081/repository/devops-project-snapshot/</url>
 		</snapshotRepository>
 	</distributionManagement>
 

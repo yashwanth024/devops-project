@@ -8,7 +8,7 @@
 	<version>0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
-	<name>maven-release Maven Webapp</name>
+	<name>Mymaven-release Maven Webapp</name>
 
 	<scm>
 		<url>https://github.com/addy2908/devops-project.git</url>
@@ -44,7 +44,7 @@
 </dependencies>
 
 	<build>
-		<finalName>maven-release</finalName>
+		<finalName>Mymaven-release</finalName>
 
 
 

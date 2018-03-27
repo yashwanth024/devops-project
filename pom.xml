@@ -15,7 +15,7 @@
 		<connection>scm:git:git@github.com:addy2908/devops-project.git</connection>
 		<developerConnection>scm:git:git@github.com:addy2908/devops-project.git</developerConnection>
 		
-	  <tag>maven-release-0.1.1</tag>
+	  <tag>HEAD</tag>
   </scm>
 
 	<distributionManagement>

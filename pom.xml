@@ -23,7 +23,7 @@
 		<repository>
 			<id>nexusreleases</id>
 			<name>new-maven-release</name>
-			<url>http://192.168.247.135:8081/repository/maven-releases/</url>
+			<url>http://192.168.247.135:8081/repository/new-maven-releases/</url>
 		</repository>
 
 		<!-- Publish snapshots here -->
